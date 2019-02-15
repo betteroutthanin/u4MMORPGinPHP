@@ -1,0 +1,103 @@
+Done - 	Basic world structure
+Done - 	Object are loaded out of the database
+Done - 	Make objects self load from DB based on ID
+Done - 	Server side object creation and binding to database for ID
+		We now have an object ID sequence vender
+Done - 	Get Object to self save/new
+Done - 	Object Injections to world
+Done - 	Object moving around map -> Move/remove for maps and blocks
+Done - 	Add action inferface in
+		Get basic movement working
+Hack - 	add world health check
+		Can check ref count of items to make sure they are not over referenced
+		it is done, but I am not happy, this will need fixing at a later data
+Done - 	Get attack action working, look for proper decay
+		Temp attack will reduce objects to death.
+		Need to add NCP destroy function
+Done - 	add file injection support at the world level
+		in short it just reads the file from disk and
+		blindly excutes
+Done - 	add support to draw items on the maps	   
+Done - 	Attack just damage, object should be resposnible
+		for working out what damage is done
+Done - 	Create support for mobs to drop items on death
+Done - 	Add destroy object (world level and database)	   
+Done - 	Player stuff
+		Connection trigger by file
+		Player loaded from data base
+Done -	Get the player view working		
+Done - 	Detailed logging (Screen and disk)
+		Also add a new game object logger in.
+		Will help to have ID, Type, Location -> Message
+Done -	Add a UI to controll things
+Done -	Simple Disk loggin
+Done -	Modify Move action and take the map move code and
+		place it in the action !!!!		
+Done - 	Work out how objects are giving to Livings when they spawn
+		Maybe uses some sort of give me my stuff		
+Done -  create an sdl viewer for it, use file instead of sockets		
+Done -	Pick up items new action get may be needed
+Done -	Drop Items
+Done -	Deal with player disconnects, remove objects they own and so on
+Done -  Add support for another map, 2 maps now exist
+Done -	Basic teleport command works
+Done -  Add special block functions for jump to another map
+Done -	Add Concept of next think - at living level
+Done -	Get some basic AI working for mobs
+		Get an orc to follow a player round
+		ATP the orc can target the player when
+		he come is range, next is to move towards
+		the player.  A dir finder will be needed
+		for this
+Done -  Add sockets support for the client and server
+Done -	Get the commands working through the sockets
+Done -	Get the view working via the sockets
+Done -	Work out some sort of AI template
+Done -  Eaching living has a view
+		this view is limitted by blocks
+		this view is built per tick
+		it also contains a list of livings as a list
+		this list has extra info about the livings, like range and dir
+		this view is used for rendering and desicion making
+		light could restrict this view
+Done -	Fix the LocToDir, it is broke, some angle are not detected
+		and it returns -1, see some temp code		
+Done -	Ensure all mobs use there view for AI decissions
+		Odd Bug where the orcs view of livings is not dropping
+		the player then I move out of screen, what the fuck
+		! I was not clearning the livings array for the view
+Done -	Get some basic mob spawning working
+		
+Todo -	Add better support for players/objects spawning on top of each other.
+		Make sure the system can handle two objects being added to the 
+		same block.  One idea is to add a system to find a blank block
+		next to the target block
+		
+		
+Todo -	Add support for tickable blocks - maybe use mob spawners as an example
+		This is sort of done
+
+
+
+		
+Todo - 	Document
+		All functions
+		Object path ways ie creation and so ons		
+Todo -	Add error handling to the add/remove paths for
+		map and world
+Todo -  Build Object change interface and tag for save list		
+Todo -	Increase support for logging levels
+Todo -	Better code for mobs chaseing characters and direction finding
+
+Concepts
+- The world is the object foundery
+-- It is the first point for the following
+--- Request for objects to be loaded (World will create, but objects will self populate based in ID)
+--- Objects should self load, but creation is handle v
+--- Creating a new Object
+--- Adding to the world and sub parts
+--- Removeral from the world and sub parts
+
+- Actions will do most of the heave lifting
+-- Map and block will have simple add/remove commands
+-- The rest is up to actions to handle

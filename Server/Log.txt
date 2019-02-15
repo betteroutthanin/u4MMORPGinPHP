@@ -1,0 +1,403 @@
+Start of Log
+Log Started
+Loading Class -> Classes\Action.php
+Loading Class -> Classes\ActionInterface.php
+Loading Class -> Classes\Actions\AttackDir.php
+Loading Class -> Classes\Actions\Disconnect.php
+Loading Class -> Classes\Actions\DropDir.php
+Loading Class -> Classes\Actions\Enter.php
+Loading Class -> Classes\Actions\GetDir.php
+Loading Class -> Classes\Actions\Move.php
+Loading Class -> Classes\Actions\Teleport.php
+Loading Class -> Classes\AI.php
+Loading Class -> Classes\AIs\KillPlayer.php
+Loading Class -> Classes\AIs\ReturnTo.php
+Loading Class -> Classes\AIs\Wonder.php
+Loading Class -> Classes\Base.php
+Loading Class -> Classes\Block.php
+Loading Class -> Classes\Blocks\BridgeEW.php
+Loading Class -> Classes\Blocks\BridgeNS.php
+Loading Class -> Classes\Blocks\Connector.php
+Loading Class -> Classes\Blocks\Forest.php
+Loading Class -> Classes\Blocks\Grass.php
+Loading Class -> Classes\Blocks\Hill.php
+Loading Class -> Classes\Blocks\Mountain.php
+Loading Class -> Classes\Blocks\Road.php
+Loading Class -> Classes\Blocks\Rock.php
+Loading Class -> Classes\Blocks\Scrub.php
+Loading Class -> Classes\Blocks\Swamp.php
+Loading Class -> Classes\Blocks\Tickable.php
+Loading Class -> Classes\Blocks\Tickables\Spawner.php
+Loading Class -> Classes\Blocks\Town.php
+Loading Class -> Classes\Blocks\Wall.php
+Loading Class -> Classes\Blocks\Water.php
+Loading Class -> Classes\Connection.php
+Loading Class -> Classes\DataBase.php
+Loading Class -> Classes\GameObject.php
+Loading Class -> Classes\GameObjects\Item.php
+Loading Class -> Classes\GameObjects\Items\Weapon.php
+Loading Class -> Classes\GameObjects\Items\Weapons\Axe.php
+Loading Class -> Classes\GameObjects\Items\Weapons\Dagger.php
+Loading Class -> Classes\GameObjects\Living.php
+Loading Class -> Classes\GameObjects\Livings\NPC.php
+Loading Class -> Classes\GameObjects\Livings\NPCs\Goat.php
+Loading Class -> Classes\GameObjects\Livings\NPCs\NPCTemplate.php
+Loading Class -> Classes\GameObjects\Livings\NPCs\Orc.php
+Loading Class -> Classes\GameObjects\Livings\Player.php
+Loading Class -> Classes\Map.php
+Loading Class -> Classes\Server.php
+Loading Class -> Classes\View.php
+Loading Class -> Classes\World.php
+Server Object created
+Boot Server Starting . . 
+DataBase Connection made
+Socket Created
+Next in Sequence = 24
+Hole in Sequence array = 
+Array
+(
+)
+
+Action Interface booting . . . 
+Action Object Created -> AttackDir
+Action Object Created -> Disconnect
+Action Object Created -> DropDir
+Action Object Created -> Enter
+Action Object Created -> GetDir
+Action Object Created -> Move
+Action Object Created -> Teleport
+ . . . Action Interface booted
+World Object created
+Loading Map -> World. . .
+Found 65536 blocks
+ . . . Map -> World loaded
+Loading Map -> CaveOfSorrow. . .
+Found 1600 blocks
+ . . . Map -> CaveOfSorrow loaded
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=0;
+ID = 0: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 0: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Populated
+Injecting Object into the world -> 0
+Object Added to block ID -> 0  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=1;
+ID = 1: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 1: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Populated
+Injecting Object into the world -> 1
+Object Added to block ID -> 1  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=2;
+ID = 2: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 2: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Populated
+Injecting Object into the world -> 2
+Object Added to block ID -> 2  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=3;
+ID = 3: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 3: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Populated
+Injecting Object into the world -> 3
+Object Added to block ID -> 3  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=4;
+ID = 4: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 4: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Populated
+Injecting Object into the world -> 4
+Object Added to block ID -> 4  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=5;
+ID = 5: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 5: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Populated
+Injecting Object into the world -> 5
+Object Added to block ID -> 5  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=6;
+ID = 6: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 6: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Populated
+Injecting Object into the world -> 6
+Object Added to block ID -> 6  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=7;
+ID = 7: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 7: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Populated
+Injecting Object into the world -> 7
+Object Added to block ID -> 7  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=8;
+ID = 8: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 8: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Populated
+Injecting Object into the world -> 8
+Object Added to block ID -> 8  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=9;
+ID = 9: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 9: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Populated
+Injecting Object into the world -> 9
+Object Added to block ID -> 9  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=11;
+ID = 11: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 11: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Populated
+Injecting Object into the world -> 11
+Object Added to block ID -> 11  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=12;
+ID = 12: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 12: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Populated
+Injecting Object into the world -> 12
+Object Added to block ID -> 12  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=13;
+ID = 13: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 13: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Populated
+Injecting Object into the world -> 13
+Object Added to block ID -> 13  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=14;
+ID = 14: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 14: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Populated
+Injecting Object into the world -> 14
+Object Added to block ID -> 14  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=15;
+ID = 15: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 15: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Populated
+Injecting Object into the world -> 15
+Object Added to block ID -> 15  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=16;
+ID = 16: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 16: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Populated
+Injecting Object into the world -> 16
+Object Added to block ID -> 16  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=17;
+ID = 17: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 17: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Populated
+Injecting Object into the world -> 17
+Object Added to block ID -> 17  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=18;
+ID = 18: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 18: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Populated
+Injecting Object into the world -> 18
+Object Added to block ID -> 18  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=19;
+ID = 19: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 19: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Populated
+Injecting Object into the world -> 19
+Object Added to block ID -> 19  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=20;
+ID = 20: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 20: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Populated
+Injecting Object into the world -> 20
+Object Added to block ID -> 20  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=21;
+ID = 21: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 21: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Populated
+Injecting Object into the world -> 21
+Object Added to block ID -> 21  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=22;
+ID = 22: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 22: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Populated
+Injecting Object into the world -> 22
+Object Added to block ID -> 22  Block Type = Spawner
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Created
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == Starting Population of Orc
+ID = : Type = Orc: Name = Orc: Wx = : Wy =  == SELECT * FROM objects WHERE id=23;
+ID = 23: Type = Orc: Name = Orc: Wx = : Wy =  == SetID
+ID = 23: Type = Orc: Name = Orc: Wx = : Wy =  == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Populated
+Injecting Object into the world -> 23
+Object Added to block ID -> 23  Block Type = Spawner
+. . . Boot Server Ended
+Entering Main Loop
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
+World - Injector Started
+Server Frame = 37
+World - Injector Ended
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
+ID = 0: Type = Orc: Name = Orc: Wx = 10: Wy = 277 == Saved to DataBase
+ID = 1: Type = Orc: Name = Orc: Wx = 8: Wy = 277 == Saved to DataBase
+ID = 2: Type = Orc: Name = Orc: Wx = 17: Wy = 276 == Saved to DataBase
+ID = 3: Type = Orc: Name = Orc: Wx = 15: Wy = 276 == Saved to DataBase
+ID = 4: Type = Orc: Name = Orc: Wx = 34: Wy = 267 == Saved to DataBase
+ID = 5: Type = Orc: Name = Orc: Wx = 30: Wy = 267 == Saved to DataBase
+ID = 6: Type = Orc: Name = Orc: Wx = 32: Wy = 266 == Saved to DataBase
+ID = 7: Type = Orc: Name = Orc: Wx = 27: Wy = 265 == Saved to DataBase
+ID = 8: Type = Orc: Name = Orc: Wx = 22: Wy = 265 == Saved to DataBase
+ID = 9: Type = Orc: Name = Orc: Wx = 10: Wy = 260 == Saved to DataBase
+ID = 11: Type = Orc: Name = Orc: Wx = 16: Wy = 277 == Saved to DataBase
+ID = 12: Type = Orc: Name = Orc: Wx = 2: Wy = 280 == Saved to DataBase
+ID = 13: Type = Orc: Name = Orc: Wx = 4: Wy = 280 == Saved to DataBase
+ID = 14: Type = Orc: Name = Orc: Wx = 8: Wy = 280 == Saved to DataBase
+ID = 15: Type = Orc: Name = Orc: Wx = 10: Wy = 280 == Saved to DataBase
+ID = 16: Type = Orc: Name = Orc: Wx = 35: Wy = 280 == Saved to DataBase
+ID = 17: Type = Orc: Name = Orc: Wx = 2: Wy = 282 == Saved to DataBase
+ID = 18: Type = Orc: Name = Orc: Wx = 4: Wy = 282 == Saved to DataBase
+ID = 19: Type = Orc: Name = Orc: Wx = 16: Wy = 283 == Saved to DataBase
+ID = 20: Type = Orc: Name = Orc: Wx = 27: Wy = 283 == Saved to DataBase
+ID = 21: Type = Orc: Name = Orc: Wx = 2: Wy = 284 == Saved to DataBase
+ID = 22: Type = Orc: Name = Orc: Wx = 4: Wy = 284 == Saved to DataBase
+ID = 23: Type = Orc: Name = Orc: Wx = 27: Wy = 286 == Saved to DataBase
